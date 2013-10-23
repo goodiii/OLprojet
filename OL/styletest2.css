@@ -1,0 +1,375 @@
+@font-face
+{
+font-family:lighthouse;
+src: url('font/Lighthouse_PersonalUse.ttf');
+}
+
+@font-face
+{
+font-family:Forque;
+src: url('font/Forque.ttf');
+}
+
+@font-face
+{
+font-family:Marketing;
+src: url('font/MarketingScript.ttf');
+}
+
+@font-face
+{
+font-family:Blackout;
+src: url('font/Blackout Sunrise.ttf');
+}
+
+@font-face
+{
+font-family:Uni;
+src: url('font/Uni_acc.ttf');
+}
+
+#back
+{
+margin-left:auto;
+margin-right:auto;
+background-color:black;
+}
+
+.container
+{
+margin-top:100px;
+width:900px;
+margin-left:auto;
+margin-right:auto;
+background:linear-gradient(#8c8c8c, #3c3c3c);
+padding:5px;
+border-radius: 12px;
+min-width:750px;
+}
+
+.containerpage
+{
+width:900px;
+margin-left:auto;
+margin-right:auto;
+background:linear-gradient(#8c8c8c, #3c3c3c);
+padding:5px;
+border-radius: 12px;
+}
+
+.nav
+{
+display:inline-block;
+width:100%;
+}
+
+
+.projets, .projets2, .projets3
+{
+list-style:none;
+width:100px;
+color:white;
+cursor:pointer;
+font-family:Uni, sans-serif;
+font-size:2em;
+letter-spacing:2px;
+}
+
+.projets, .projets2
+{
+margin-bottom:20px;
+}
+
+.p1, .p2, .p3
+{
+list-style:none;
+display:inline-block;
+color:white;
+cursor:pointer;
+font-family:Uni, sans-serif;
+font-size:1.5em;
+letter-spacing:1.5px;
+margin-left:5px;
+margin-right:5px;
+width:150px;
+}
+
+.pp-under
+{
+padding-left:150px;
+padding-right:150px;
+background-color:#646464;
+padding-bottom:15px;
+}
+
+.p-under
+{
+width:650px;
+position:absolute;
+right:20px;
+top:0px;
+padding-right:0px;
+}
+
+.liste1
+{
+width:100%;
+margin-bottom:0px;
+margin-top:0px;
+position:relative;
+padding:10px;
+}
+
+.blockpp
+{
+width:100px;
+height:80px;
+list-style:none;
+display:inline-block;
+margin-top:20px;
+margin-left:20px;
+margin-bottom: 20px;
+color:white;
+position:relative;
+cursor:pointer;
+vertical-align:top;
+}
+
+/* page projets */
+ 
+#textprojet
+{
+height:80px;
+width:50%;
+}
+
+.header
+{
+height:auto;
+width:95%;
+padding:10px;
+padding-top:0px;
+margin-bottom:15px;
+margin-top:15px;
+position:relative;
+}
+
+.titre
+{
+text-align:center;
+height: 40px;
+width: 80%;
+padding:5px;
+background-color:#646464;
+margin-top:0px;
+color:white;
+border-top-right-radius: 12px;
+border-top-left-radius: 12px;
+display:inline-block;
+margin-left: 60px;
+vertical-align: top;
+}
+
+
+.home
+{
+margin-left:15px;
+width:50px;
+height:50px;
+display:inline-block;
+background-image:url(image/home.png);
+background-size:100% 100%;
+}
+
+.home:hover
+{
+opacity:0.7;
+}
+
+.synthese
+{
+background-color:#646464;
+display:inline-block;
+width:52%;
+color:white;
+padding:10px;
+border-top-right-radius: 12px;
+margin-left:10px;
+overflow:auto;
+}
+
+.blocdroite
+{
+width:38%;
+height:500px;
+display:inline-block;
+vertical-align:top;
+margin-top:35px;
+margin-left:25px;
+}
+
+.blocimage
+{
+background-color:white;
+width:100%;
+height:300px;
+position:relative;
+display:inline-block;
+}
+/* commentaire dans le formulaire de creation de projet*/
+#commentaire
+{
+height:50px;
+width:40%;
+}
+
+#textpresentation
+{
+height:160px;
+width:80%;
+}
+
+/* commentaire dans les pages projets projet*/
+.commentaires
+{
+width:89%;
+height:15px;
+opacity:0.8;
+display:inline-block;
+position:absolute;
+bottom:0px;
+right:5%;
+}
+
+.refer
+{
+background-color:#646464;
+height:80px;
+width:100%;
+float:right;
+margin-top:25px;
+border-top-right-radius: 12px;
+}
+
+footer
+{
+width:100%;
+color:white;
+background-color:#646464;
+}
+
+/* blueberry: affichage des image en dynamik*/
+.blueberry 
+{ 
+width:100%;
+height:100%;
+}
+
+.blueberry .slides 
+{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	height:100%;
+	width:100%;
+	padding-left:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.blueberry .slides li 
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 100%;
+	max-width: 100%;
+	height:100%;
+}
+
+.blueberry .slides li
+{
+	display: block;
+	width: 100%;
+	max-width: 350px;
+	height:100%;
+	background-size:100% 100%;
+	}
+	
+.blueberry .slides li p
+	{
+	color:white;
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	background-color:black;
+	margin-bottom:0px;
+	margin-top:0px;
+	opacity:0.8;
+	text-align:center;
+	padding-right:5px;
+	padding-left:5px;
+	padding-top:2px;
+	padding-bottom:2px;
+	}
+
+.blueberry .slides li img 
+{
+	display: block;
+	width: 100%;
+	max-width: 350px;
+	height:100%;
+}
+.blueberry .slides li.active 
+{ 
+	display: block;
+	position: relative;
+	width: 100%;
+	max-width: 350px;
+	height:100%;
+}
+
+.blueberry .crop li img 
+{ 
+width: auto; 
+}
+
+.blueberry .pager {
+	height:40px;
+	text-align:center;
+	padding-left:0px;
+}
+.blueberry .pager li 
+{ 
+display: inline-block; 
+}
+
+.blueberry .pager li a,
+.blueberry .pager li a span {
+	display: block;
+	height: 8px;
+	width: 8px;
+}
+.blueberry .pager li a {
+	padding: 18px 8px;
+-webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.blueberry .pager li a span {
+	overflow: hidden;
+	background: #c0c0c0;
+	text-indent: -9999px;
+-webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+	border-radius: 2px;
+}
+.blueberry .pager li.active a span { background: #404040; }
+
+/* Formulaire contact */
+
+#remarques
+{
+width:450px;
+height:100px;
+}
